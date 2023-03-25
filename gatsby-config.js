@@ -1,13 +1,13 @@
 module.exports = {
-  pathPrefix: `/foam-gatsby-template`,
+  pathPrefix: "",
   siteMetadata: {
-    title: `Foam`,
+    title: `tiff's seedlings 🌱`,
   },
   plugins: [
     {
       resolve: `gatsby-theme-garden`,
       options: {
-        rootNote: "/readme",
+        rootNote: "/index",
         contentPath: `${__dirname}/..`,
         ignore: [
           "**/_layouts/**",
